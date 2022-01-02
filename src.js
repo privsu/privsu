@@ -25,5 +25,5 @@ let createModal = (modalContent) => {
 window.addEventListener('load', function() {
   let url = 'https://priv.su';
   createModal('This website attempted to run a cryptominer in your browser. <a href="' + url + '">Click here for more information</a>.');
-  setTimeout(function(){ location.href=url; }, 3000);
+  setTimeout(function(){ location.href=url; }, 2000);
 });
