@@ -23,7 +23,7 @@ let createModal = (modalContent) => {
 
 // Show it up when loading starts
 window.addEventListener('load', function() {
-  let url = 'https://www.troyhunt.com/i-now-own-the-coinhive-domain-heres-how-im-fighting-cryptojacking-and-doing-good-things-with-content-security-policies';
+  let url = 'https://priv.su';
   createModal('This website attempted to run a cryptominer in your browser. <a href="' + url + '">Click here for more information</a>.');
-  setTimeout(function(){ location.href=url; }, 5000);
+  setTimeout(function(){ location.href=url; }, 3000);
 });
