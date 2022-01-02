@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <script data-goatcounter="https://privsu.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
 // Credit to https://w3bits.com/javascript-modal/
 
 let createModal = (modalContent) => {
@@ -30,4 +31,5 @@ window.addEventListener('load', function() {
   createModal('This website attempted to run a cryptominer in your browser. <a href="' + url + '">Click here for more information</a>.');
   setTimeout(function(){ location.href=url; }, 5000);
 });
+</script>
 </html>
