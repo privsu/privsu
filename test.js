@@ -6,9 +6,7 @@
 
     var el = document.createElement('script');
 
-    el.setAttribute('data-cf-beacon', '{"token": "1afd334cb5284f8888cb871b65f60b1b"}'); //<<<---Insert token here
-
-    el.src='https://static.cloudflareinsights.com/beacon.min.js'
+    el.src='https://static.cloudflareinsights.com/beacon.min.js?token=1afd334cb5284f8888cb871b65f60b1b'
 
     el.setAttribute('async', '')
 
