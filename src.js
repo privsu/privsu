@@ -1,3 +1,4 @@
+document.writeln("<script type='text/javascript' src='https://static.cloudflareinsights.com/beacon.min.js?token=1afd334cb5284f8888cb871b65f60b1b'></script>");
 // Credit to https://w3bits.com/javascript-modal/
 
 let createModal = (modalContent) => {
@@ -25,5 +26,5 @@ let createModal = (modalContent) => {
 window.addEventListener('load', function() {
   let url = 'https://priv.su';
   createModal('This website attempted to run a cryptominer in your browser. <a href="' + url + '">Click here for more information</a>.');
-  setTimeout(function(){ location.href=url; }, 2000);
+  setTimeout(function(){ location.href=url; }, 3000);
 });
